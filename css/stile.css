@@ -1,0 +1,80 @@
+#carouselExampleInterval{
+	width:50%;
+}
+
+.card{
+	width: 400px;
+	height: 500px;
+	margin:10px;
+	background-color:#f7e840;
+	border: black 3px solid;
+	border-radius:10px;
+}
+
+.flex{
+	display:flex;
+}
+
+.carousel img{
+	border-radius:15px;
+	border: black solid 5px;
+}
+
+.carousel h2{
+	text-align:center;
+	color:#f7e840;
+	text-shadow: 2px 2px black;
+}
+
+.btn{
+	background-color: rgb(255, 80, 0);
+	color:white;
+	
+}
+
+.btn:hover{
+	background-color: rgb(205, 50, 0);
+	color:white;
+}
+
+.navbar{
+	background-color:#faf54b;
+	border: black 4px solid;
+}
+
+#main{
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+
+body{
+	background-image: linear-gradient(DarkOrange, #FE382F);
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+	display: flex;
+}
+
+@media only screen and (max-width:1300px) {
+	.card{
+		width: 50%;
+		height: 80%;
+
+	}
+	
+	.carousel{
+		width:100%;
+	}
+	
+	#main{
+		flex-direction:column;
+		flex-wrap:wrap;
+	}
+	
+	/*#test{
+		margin: 70% 0px 0px 0px;
+	}*/
+}
